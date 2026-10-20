@@ -9,7 +9,7 @@ Name of Quantlet: Experimentation-Pipeline
 
 Published in: Meta-Learning for Monitoring in Code Summarization Systems
 
-Description: This script present example of usage of experimentation pipeline, consisting of intial Code Summarization Training/inference, as well as further monitoring with TML.
+Description: This script present example of usage of experimentation pipeline, consisting of intial Code Summarization Training/inference, as well as further monitoring with TML. You can set up whether you use "drift" or "no_drift" setting. Also enables the nesemble learning with mixture of experts
 
 Keywords: 
 - data drift
@@ -28,8 +28,6 @@ Input: ./data/process
 
 Output: ./data folder
 
-Setup:     `cd ensemble
-
-pip install --pre torch torchvision torchaudio --index-url https: //download.pytorch.org/whl/nightly/cu121
+Setup: `cd ensemble conda create -n ensemble python=3.10 conda activate ensemble pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121 pip install -r requirements.txt python -m ipykernel install --user --name=ensemble`
 
 ```
