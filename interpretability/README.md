@@ -9,7 +9,7 @@ Name of Quantlet: Interpretability
 
 Published in: Meta-Learning for Monitoring in Code Summarization Systems
 
-Description: This script shows the predictive interpretability experience withe LIME and meta learning moduls.
+Description: This script shows the predictive interpretability experience withe LIME and meta learning moduls. It also shows other ways to visualize the seq2seq data (e.g., BERTViz)
 
 Keywords: 
 - BertViz
@@ -24,6 +24,6 @@ Author: Elizaveta Zinovyeva
 
 Submitted: January 2024, Elizaveta Zinovyeva
 
-Setup:     `cd interpretability
+Setup: `cd interpretability conda create -n interpretability python=3.10 conda activate interpretability pip install -r requirements.txt python -m ipykernel install --user --name=interpretability`
 
 ```
