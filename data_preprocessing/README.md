@@ -9,7 +9,7 @@ Name of Quantlet: Conala_mined_preprocessing
 
 Published in: Meta-Learning for Monitoring in Code Summarization Systems
 
-Description: This script loads the CoNaLa data from huggingface, creates pandas data frame, performs pre-processing.
+Description: This script loads the CoNaLa data from huggingface, creates pandas data frame, performs pre-processing. Moreover, it performs clustering of data points, for further Data Drift simulation
 
 Keywords: 
 - HuggingFace
@@ -27,6 +27,6 @@ Input: None
 
 Output: ./data folder
 
-Setup:     `cd ensemble
+Setup: `cd ensemble conda create -n preprocessing python=3.10 conda activate preprocessing pip install -r requirements.txt python -m ipykernel install --user --name=preprocessing`
 
 ```
