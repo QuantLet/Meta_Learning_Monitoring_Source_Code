@@ -23,8 +23,6 @@ Author: Elizaveta Zinovyeva
 
 Submitted: January 2024, Elizaveta Zinovyeva
 
-Setup:     `cd ensemble
-
-pip install --pre torch torchvision torchaudio --index-url https: //download.pytorch.org/whl/nightly/cu121
+Setup: `cd ensemble conda create -n tml_exp python=3.10 conda activate tml_exp pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121 pip install -r requirements.txt python -m ipykernel install --user --name=tml_exp`
 
 ```
